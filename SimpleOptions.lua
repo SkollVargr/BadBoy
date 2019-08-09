@@ -1,4 +1,8 @@
 
+if WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC then
+	return
+end
+
 -- GLOBALS: PlaySound, SlashCmdList, BADBOY_OPTIONS, SLASH_BADBOY1
 local L
 do
